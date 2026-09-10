@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  html, body { margin: 0; padding: 0; background: #FAF8F3; }
+  * { box-sizing: border-box; }
+  a { color: #06251D; text-decoration: none; border-bottom: 1px solid #C6BFA9; }
+  a:hover { color: #8A6E1F; border-bottom-color: #8A6E1F; }
+  @keyframes riseIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+</style>
+</helmet>
+<div style="background: #FAF8F3; color: #12261F; font-family: 'Instrument Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased;">
+
+  <div style="position: sticky; top: 0; z-index: 20; background: rgba(250, 248, 243, 0.94); backdrop-filter: blur(6px); border-bottom: 1px solid #E4DFD1;">
+    <div style="max-width: 1120px; margin: 0 auto; padding: 13px 24px; display: flex; flex-wrap: wrap; gap: 14px; align-items: center; justify-content: space-between; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase;">
+      <div style="display: flex; align-items: baseline; gap: 10px;">
+        <span style="color: #12261F;">Hawlak / حولك</span>
+        <span style="color: #5F6B62;">Case study</span>
+      </div>
+      <a href="Heba%20Elgendy%20-%2090%20Seconds.dc.html" style="color: #5F6B62; border-bottom-color: #C6BFA9;">← Back to the 90 seconds</a>
+    </div>
+  </div>
+
+  <section style="max-width: 1120px; margin: 0 auto; padding: 9vh 24px 8vh;">
+    <p style="margin: 0 0 26px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #5F6B62;">Hawlak · UX Audit · Product Strategy · Brand &amp; UI Redesign</p>
+    <h1 style="margin: 0 0 28px; font-family: 'Instrument Serif', Georgia, serif; font-weight: 400; font-size: clamp(34px, 5.6vw, 72px); line-height: 1.03; letter-spacing: -0.02em; max-width: 920px; text-wrap: pretty;">I wasn't redesigning a marketplace. I was figuring out why it felt unclear.</h1>
+    <p style="margin: 0 0 46px; font-size: clamp(17px, 1.8vw, 21px); line-height: 1.55; max-width: 620px; color: #3B4A42;">Hawlak had the pieces of a marketplace. The challenge was making those pieces feel like one clear product.</p>
+
+    <div style="border: 1px solid #12362B; background: #0A0A0A; margin-bottom: 34px;">
+      <img src="uploads/COVER%20HAWLAK.png" alt="Hawlak — reimagining the Saudi marketplace experience" style="display: block; width: 100%; height: auto;" />
+    </div>
+
+    <div style="background: #06251D; padding: 14px;">
+      <div style="overflow: hidden; aspect-ratio: 1400 / 510;">
+        <img src="uploads/HAWLAK10.jpg" alt="Hawlak original homepage" style="display: block; width: 100%; margin-top: -25%;" />
+      </div>
+      <p style="margin: 12px 4px 2px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: #C9A84C;">The original hawlak homepage</p>
+    </div>
+  </section>
+
+  <section style="max-width: 1120px; margin: 0 auto; padding: 6vh 24px; border-top: 1px solid #E4DFD1;">
+    <p style="margin: 0 0 14px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #8A6E1F;">01 — UX Audit</p>
+    <h2 style="margin: 0 0 18px; font-family: 'Instrument Serif', Georgia, serif; font-weight: 400; font-size: clamp(28px, 3.8vw, 46px); line-height: 1.08; letter-spacing: -0.015em; max-width: 760px;">Before touching the UI, I looked for friction.</h2>
+    <p style="margin: 0 0 40px; font-size: 17px; line-height: 1.6; max-width: 620px; color: #3B4A42;">I audited the existing experience to understand where the interface was making simple tasks harder than they needed to be.</p>
+
+    <img src="uploads/HAWLAK 2.jpg" alt="Annotated UX audit of the original Hawlak homepage" style="display: block; width: 100%; height: auto; border: 1px solid #E4DFD1;" />
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1px; background: #E4DFD1; border: 1px solid #E4DFD1; margin-top: 34px;">
+      <div style="background: #FAF8F3; padding: 26px 22px;">
+        <p style="margin: 0 0 12px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; color: #8A6E1F;">01</p>
+        <p style="margin: 0 0 10px; font-family: 'Instrument Serif', Georgia, serif; font-size: 24px; line-height: 1.2;">Search wasn't the hero</p>
+        <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #3B4A42;">The main search action was competing with a large promotional banner.</p>
+      </div>
+      <div style="background: #FAF8F3; padding: 26px 22px;">
+        <p style="margin: 0 0 12px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; color: #8A6E1F;">02</p>
+        <p style="margin: 0 0 10px; font-family: 'Instrument Serif', Georgia, serif; font-size: 24px; line-height: 1.2;">The product wasn't immediately clear</p>
+        <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #3B4A42;">The first screen didn't clearly communicate what Hawlak was primarily helping people do.</p>
+      </div>
+      <div style="background: #FAF8F3; padding: 26px 22px;">
+        <p style="margin: 0 0 12px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; color: #8A6E1F;">03</p>
+        <p style="margin: 0 0 10px; font-family: 'Instrument Serif', Georgia, serif; font-size: 24px; line-height: 1.2;">The journeys were blurred</p>
+        <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #3B4A42;">Searching for something and posting something were competing for the same attention.</p>
+      </div>
+    </div>
+
+    <p style="margin: 44px 0 0; font-family: 'Instrument Serif', Georgia, serif; font-size: clamp(24px, 3.2vw, 38px); line-height: 1.14; max-width: 780px;">Everything was asking for attention. Nothing was clearly asking for it first.</p>
+  </section>
+
+  <section style="background: #06251D; color: #F2EFE6;">
+    <div style="max-width: 1120px; margin: 0 auto; padding: 8vh 24px;">
+      <p style="margin: 0 0 14px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #C9A84C;">02 — Product direction</p>
+      <h2 style="margin: 0 0 34px; font-family: 'Instrument Serif', Georgia, serif; font-weight: 400; font-size: clamp(28px, 3.8vw, 46px); line-height: 1.08;">So I asked a simpler question.</h2>
+      <p style="margin: 0 0 46px; font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: clamp(26px, 4.4vw, 54px); line-height: 1.1; color: #C9A84C; max-width: 860px;">“What should Hawlak help me do first?”</p>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px;">
+        <div style="border: 1px solid #1D4638; padding: 30px 26px;">
+          <p style="margin: 0 0 20px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #9FBBAE;">I'm looking for something</p>
+          <p style="margin: 0; font-family: 'Instrument Serif', Georgia, serif; font-size: 27px; line-height: 1.3;">Search → Discover → Contact</p>
+        </div>
+        <div style="border: 1px solid #1D4638; padding: 30px 26px;">
+          <p style="margin: 0 0 20px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #9FBBAE;">I want to offer something</p>
+          <p style="margin: 0; font-family: 'Instrument Serif', Georgia, serif; font-size: 27px; line-height: 1.3;">Post → Describe → Connect</p>
+        </div>
+      </div>
+      <p style="margin: 30px 0 0; font-size: 17px; color: #C6D4CC;">Two intentions. Two clear paths.</p>
+    </div>
+  </section>
+
+  <section style="max-width: 1120px; margin: 0 auto; padding: 8vh 24px;">
+    <p style="margin: 0 0 14px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #8A6E1F;">03 — UX decision</p>
+    <h2 style="margin: 0 0 20px; font-family: 'Instrument Serif', Georgia, serif; font-weight: 400; font-size: clamp(30px, 4.4vw, 54px); line-height: 1.04; letter-spacing: -0.015em;">Search first. Post second.</h2>
+    <p style="margin: 0 0 44px; font-size: 17px; line-height: 1.6; max-width: 600px; color: #3B4A42;">The homepage shouldn't make two primary jobs compete. So I gave each one a clearer place in the experience.</p>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px;">
+      <div>
+        <p style="margin: 0 0 12px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #5F6B62;">Before</p>
+        <div style="background: #06251D; padding: 10px;">
+          <div style="overflow: hidden; aspect-ratio: 1400 / 500;">
+            <img src="uploads/HAWLAK10.jpg" alt="Original Hawlak homepage" style="display: block; width: 100%; margin-top: -25%;" />
+          </div>
+        </div>
+        <p style="margin: 14px 0 0; font-size: 16px; line-height: 1.55;">Search competes with the homepage.</p>
+      </div>
+      <div>
+        <p style="margin: 0 0 12px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #8A6E1F;">After</p>
+        <div style="background: #06251D; padding: 10px;">
+          <div style="overflow: hidden; aspect-ratio: 1400 / 500;">
+            <img src="uploads/HAWLAK9.jpg" alt="Redesigned Hawlak homepage hero with search first" style="display: block; width: 100%; margin-top: -27%;" />
+          </div>
+        </div>
+        <p style="margin: 14px 0 0; font-size: 16px; line-height: 1.55;">Search becomes the first thing you can act on.</p>
+      </div>
+    </div>
+  </section>
+
+  <section style="max-width: 1120px; margin: 0 auto; padding: 6vh 24px 8vh; border-top: 1px solid #E4DFD1;">
+    <p style="margin: 0 0 14px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #8A6E1F;">04 — Homepage redesign</p>
+    <h2 style="margin: 0 0 40px; font-family: 'Instrument Serif', Georgia, serif; font-weight: 400; font-size: clamp(28px, 3.8vw, 46px); line-height: 1.08; max-width: 780px;">Once the first step was clear, everything else had a job.</h2>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 34px; align-items: flex-start;">
+      <div style="flex: 1 1 380px; min-width: 0;">
+        <img src="uploads/HAWLAK9.jpg" alt="Full redesigned Hawlak homepage with annotations" style="display: block; width: 100%; height: auto; border: 1px solid #E4DFD1;" />
+      </div>
+      <div style="flex: 1 1 260px; min-width: 0; display: flex; flex-direction: column; gap: 22px; position: sticky; top: 76px;">
+        <div>
+          <p style="margin: 0 0 6px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; color: #8A6E1F;">01 — Start here</p>
+          <p style="margin: 0; font-size: 17px; line-height: 1.5;">Search is immediately available.</p>
+        </div>
+        <div>
+          <p style="margin: 0 0 6px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; color: #8A6E1F;">02 — Discover</p>
+          <p style="margin: 0; font-size: 17px; line-height: 1.5;">Categories make browsing easier to understand.</p>
+        </div>
+        <div>
+          <p style="margin: 0 0 6px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; color: #8A6E1F;">03 — Understand</p>
+          <p style="margin: 0; font-size: 17px; line-height: 1.5;">Listings have a clearer visual hierarchy.</p>
+        </div>
+        <div>
+          <p style="margin: 0 0 6px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; color: #8A6E1F;">04 — Post</p>
+          <p style="margin: 0; font-size: 17px; line-height: 1.5;">Sellers get a distinct path instead of competing with search.</p>
+        </div>
+      </div>
+    </div>
+
+    <p style="margin: 44px 0 0; font-family: 'Instrument Serif', Georgia, serif; font-size: clamp(24px, 3.2vw, 36px); line-height: 1.16; max-width: 720px;">The goal wasn't to add more content. It was to give each piece a reason to exist.</p>
+  </section>
+
+  <section style="max-width: 1120px; margin: 0 auto; padding: 6vh 24px 8vh; border-top: 1px solid #E4DFD1;">
+    <p style="margin: 0 0 14px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #8A6E1F;">05 — Brand direction</p>
+    <h2 style="margin: 0 0 18px; font-family: 'Instrument Serif', Georgia, serif; font-weight: 400; font-size: clamp(28px, 3.8vw, 46px); line-height: 1.08; max-width: 720px;">A clearer product needed a clearer identity.</h2>
+    <p style="margin: 0 0 40px; font-size: 17px; line-height: 1.6; max-width: 620px; color: #3B4A42;">The original identity felt generic and didn't communicate Hawlak's local marketplace idea clearly enough.</p>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 34px; align-items: flex-start;">
+      <div style="flex: 1 1 300px; min-width: 0;">
+        <p style="margin: 0 0 10px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #5F6B62;">The idea</p>
+        <p style="margin: 0 0 30px; font-family: 'Instrument Serif', Georgia, serif; font-size: clamp(26px, 3.4vw, 40px); line-height: 1.1;">Put the user at the center.</p>
+        <div style="display: flex; flex-direction: column; gap: 20px;">
+          <div style="display: flex; gap: 14px; align-items: flex-start;">
+            <div style="width: 16px; height: 16px; border-radius: 50%; border: 1.5px solid #12261F; flex: none; margin-top: 4px;"></div>
+            <div>
+              <p style="margin: 0 0 3px; font-size: 16px; font-weight: 500;">Outer circle</p>
+              <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #3B4A42;">The wider marketplace.</p>
+            </div>
+          </div>
+          <div style="display: flex; gap: 14px; align-items: flex-start;">
+            <div style="width: 11px; height: 11px; border-radius: 50%; border: 1.5px solid #12261F; flex: none; margin-top: 6px; margin-left: 3px; margin-right: 2px;"></div>
+            <div>
+              <p style="margin: 0 0 3px; font-size: 16px; font-weight: 500;">Middle circle</p>
+              <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #3B4A42;">The local community.</p>
+            </div>
+          </div>
+          <div style="display: flex; gap: 14px; align-items: flex-start;">
+            <div style="width: 8px; height: 8px; border-radius: 50%; background: #C9A84C; flex: none; margin-top: 8px; margin-left: 4px; margin-right: 4px;"></div>
+            <div>
+              <p style="margin: 0 0 3px; font-size: 16px; font-weight: 500;">Center dot</p>
+              <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #3B4A42;">The user at the heart of the experience.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="flex: 1 1 380px; min-width: 0;">
+        <img src="uploads/Body-1.jpg" alt="Hawlak logo construction and applications" style="display: block; width: 100%; height: auto; border: 1px solid #E4DFD1;" />
+      </div>
+    </div>
+
+    <img src="uploads/Body.jpg" alt="Hawlak brand direction and identity applications" style="display: block; width: 100%; height: auto; border: 1px solid #E4DFD1; margin-top: 24px;" />
+
+    <p style="margin: 40px 0 0; font-family: 'Instrument Serif', Georgia, serif; font-size: clamp(22px, 2.8vw, 32px); line-height: 1.18; max-width: 640px;">A small visual idea became the foundation for the identity.</p>
+  </section>
+
+  <section style="max-width: 1120px; margin: 0 auto; padding: 6vh 24px 8vh; border-top: 1px solid #E4DFD1;">
+    <p style="margin: 0 0 14px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #8A6E1F;">06 — Design system</p>
+    <h2 style="margin: 0 0 18px; font-family: 'Instrument Serif', Georgia, serif; font-weight: 400; font-size: clamp(28px, 3.8vw, 46px); line-height: 1.08; max-width: 760px;">The visual language had to survive beyond one screen.</h2>
+    <p style="margin: 0 0 40px; font-size: 17px; line-height: 1.6; max-width: 620px; color: #3B4A42;">I translated the new direction into a system of reusable decisions across the product.</p>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 34px; align-items: flex-start;">
+      <div style="flex: 1 1 260px; min-width: 0; display: flex; flex-direction: column; gap: 22px;">
+        <div>
+          <p style="margin: 0 0 5px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #8A6E1F;">Clarity</p>
+          <p style="margin: 0; font-size: 17px; line-height: 1.5;">One clear primary action.</p>
+        </div>
+        <div>
+          <p style="margin: 0 0 5px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #8A6E1F;">Recognition</p>
+          <p style="margin: 0; font-size: 17px; line-height: 1.5;">A consistent visual identity.</p>
+        </div>
+        <div>
+          <p style="margin: 0 0 5px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #8A6E1F;">Consistency</p>
+          <p style="margin: 0; font-size: 17px; line-height: 1.5;">Shared components and patterns.</p>
+        </div>
+        <div>
+          <p style="margin: 0 0 5px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #8A6E1F;">Scalability</p>
+          <p style="margin: 0; font-size: 17px; line-height: 1.5;">A foundation for future product expansion.</p>
+        </div>
+      </div>
+      <div style="flex: 1 1 380px; min-width: 0;">
+        <img src="uploads/HAWLAK7.jpg" alt="Hawlak design system: palette, typography and components" style="display: block; width: 100%; height: auto; border: 1px solid #E4DFD1;" />
+      </div>
+    </div>
+  </section>
+
+  <section style="background: #06251D; color: #F2EFE6;">
+    <div style="max-width: 1120px; margin: 0 auto; padding: 8vh 24px;">
+      <p style="margin: 0 0 14px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #C9A84C;">07 — Design decisions</p>
+      <h2 style="margin: 0 0 46px; font-family: 'Instrument Serif', Georgia, serif; font-weight: 400; font-size: clamp(28px, 3.8vw, 46px); line-height: 1.08;">Every screen started with a problem.</h2>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px;">
+        <div style="border: 1px solid #1D4638; padding: 26px 24px;">
+          <p style="margin: 0 0 16px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: #9FBBAE;">Search</p>
+          <p style="margin: 0 0 18px; font-size: 16px; line-height: 1.55; color: #C6D4CC;">Search was competing with other content.</p>
+          <p style="margin: 0; font-family: 'Instrument Serif', Georgia, serif; font-size: 22px; line-height: 1.24;">Make search the primary action above the fold.</p>
+        </div>
+        <div style="border: 1px solid #1D4638; padding: 26px 24px;">
+          <p style="margin: 0 0 16px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: #9FBBAE;">Positioning</p>
+          <p style="margin: 0 0 18px; font-size: 16px; line-height: 1.55; color: #C6D4CC;">The product's purpose wasn't immediately clear.</p>
+          <p style="margin: 0; font-family: 'Instrument Serif', Georgia, serif; font-size: 22px; line-height: 1.24;">Build a stronger marketplace-focused first impression.</p>
+        </div>
+        <div style="border: 1px solid #1D4638; padding: 26px 24px;">
+          <p style="margin: 0 0 16px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: #9FBBAE;">Categories</p>
+          <p style="margin: 0 0 18px; font-size: 16px; line-height: 1.55; color: #C6D4CC;">Categories lacked hierarchy and browsing structure.</p>
+          <p style="margin: 0; font-family: 'Instrument Serif', Georgia, serif; font-size: 22px; line-height: 1.24;">Introduce clearer, intent-driven navigation.</p>
+        </div>
+        <div style="border: 1px solid #1D4638; padding: 26px 24px;">
+          <p style="margin: 0 0 16px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: #9FBBAE;">User journeys</p>
+          <p style="margin: 0 0 18px; font-size: 16px; line-height: 1.55; color: #C6D4CC;">Searching and posting competed for attention.</p>
+          <p style="margin: 0; font-family: 'Instrument Serif', Georgia, serif; font-size: 22px; line-height: 1.24;">Separate the two primary journeys.</p>
+        </div>
+        <div style="border: 1px solid #1D4638; padding: 26px 24px;">
+          <p style="margin: 0 0 16px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: #9FBBAE;">Trust</p>
+          <p style="margin: 0 0 18px; font-size: 16px; line-height: 1.55; color: #C6D4CC;">The interface lacked strong trust signals.</p>
+          <p style="margin: 0; font-family: 'Instrument Serif', Georgia, serif; font-size: 22px; line-height: 1.24;">Use clearer hierarchy, branding, and marketplace cues.</p>
+        </div>
+        <div style="border: 1px solid #1D4638; padding: 26px 24px;">
+          <p style="margin: 0 0 16px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: #9FBBAE;">Local discovery</p>
+          <p style="margin: 0 0 18px; font-size: 16px; line-height: 1.55; color: #C6D4CC;">Hawlak's local value wasn't visible enough.</p>
+          <p style="margin: 0; font-family: 'Instrument Serif', Georgia, serif; font-size: 22px; line-height: 1.24;">Make nearby discovery part of the experience.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="max-width: 1120px; margin: 0 auto; padding: 8vh 24px;">
+    <p style="margin: 0 0 14px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #8A6E1F;">08 — Before / after</p>
+    <h2 style="margin: 0 0 44px; font-family: 'Instrument Serif', Georgia, serif; font-weight: 400; font-size: clamp(30px, 4.4vw, 54px); line-height: 1.04; letter-spacing: -0.015em; max-width: 740px;">Same marketplace. Different first impression.</h2>
+
+    <img src="uploads/HAWLAK10.jpg" alt="Hawlak before and after comparison" style="display: block; width: 100%; height: auto; border: 1px solid #E4DFD1;" />
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 34px; margin-top: 40px;">
+      <div>
+        <p style="margin: 0 0 16px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #5F6B62;">Before</p>
+        <div style="display: flex; flex-direction: column; gap: 8px; font-size: 17px; line-height: 1.5; color: #3B4A42;">
+          <p style="margin: 0;">Search was buried.</p>
+          <p style="margin: 0;">The product's purpose was unclear.</p>
+          <p style="margin: 0;">The hierarchy competed for attention.</p>
+        </div>
+      </div>
+      <div>
+        <p style="margin: 0 0 16px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #8A6E1F;">After</p>
+        <div style="display: flex; flex-direction: column; gap: 8px; font-size: 17px; line-height: 1.5;">
+          <p style="margin: 0;">Search comes first.</p>
+          <p style="margin: 0;">The journeys are clearer.</p>
+          <p style="margin: 0;">The identity feels intentional.</p>
+        </div>
+      </div>
+    </div>
+
+    <p style="margin: 60px 0 0; font-family: 'Instrument Serif', Georgia, serif; font-size: clamp(26px, 4vw, 46px); line-height: 1.08; max-width: 820px;">I didn't try to make Hawlak look better. I tried to make it easier to understand.</p>
+  </section>
+
+  <section style="border-top: 1px solid #E4DFD1;">
+    <div style="max-width: 1120px; margin: 0 auto; padding: 5vh 24px 9vh; display: flex; flex-wrap: wrap; gap: 16px; align-items: center;">
+      <a href="Heba%20Elgendy%20-%2090%20Seconds.dc.html" style="padding: 14px 24px; background: #12261F; color: #FAF8F3; border: none; font-size: 15px;">← Back to the 90 seconds</a>
+      <span style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: #5F6B62;">Next case study: [ <a href="SafeHer%20-%20Case%20Study.dc.html" style="color: #5F6B62; border-bottom-color: #C6BFA9;">SafeHer</a> ]</span>
+    </div>
+  </section>
+</div>
+</x-dc>
+</body>
+</html>

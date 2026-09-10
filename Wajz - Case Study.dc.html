@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  html, body { margin: 0; padding: 0; background: #0A0A0A; }
+  * { box-sizing: border-box; }
+  a { color: #F0C84A; text-decoration: none; border-bottom: 1px solid rgba(240, 200, 74, 0.4); }
+  a:hover { color: #FFFFFF; border-bottom-color: #FFFFFF; }
+  @keyframes riseIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+</style>
+</helmet>
+<div style="background: #0A0A0A; color: #FFFFFF; font-family: 'Cairo', 'Instrument Sans', Helvetica, sans-serif; -webkit-font-smoothing: antialiased;">
+
+  <div style="position: sticky; top: 0; z-index: 20; background: rgba(10, 10, 10, 0.88); backdrop-filter: blur(12px); border-bottom: 1px solid #1E1E1E;">
+    <div style="max-width: 1160px; margin: 0 auto; padding: 13px 24px; display: flex; flex-wrap: wrap; gap: 14px; align-items: center; justify-content: space-between; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase;">
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <span style="display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px; border-radius: 6px; background: #D4A935; color: #0A0A0A; font-weight: 700; letter-spacing: 0;">W</span>
+        <span style="color: #FFFFFF;">Wajz</span>
+        <span style="color: #999999;">Case study</span>
+      </div>
+      <a href="Heba%20Elgendy%20-%2090%20Seconds.dc.html">← Back to the 90 seconds</a>
+    </div>
+  </div>
+
+  <section style="max-width: 1160px; margin: 0 auto; padding: 8vh 24px 6vh;">
+    <p style="margin: 0 0 24px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #D4A935;">UI/UX case study · Website redesign</p>
+    <h1 style="margin: 0 0 26px; font-weight: 900; font-size: clamp(34px, 6vw, 78px); line-height: 1.0; letter-spacing: -0.02em; max-width: 900px; text-wrap: pretty;">From scattered services<br />to <span style="color: #F0C84A;">one clear direction.</span></h1>
+    <p style="margin: 0 0 34px; font-size: clamp(17px, 1.8vw, 21px); line-height: 1.6; max-width: 620px; color: #B8B8B8;">Redesigning Wajz around one idea: technology, marketing, and creativity working together to grow businesses.</p>
+    <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 46px;">
+      <span style="padding: 8px 16px; border: 1px solid #2A2A2A; border-radius: 999px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #E0E0E0;">Saudi market</span>
+      <span style="padding: 8px 16px; border: 1px solid #2A2A2A; border-radius: 999px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #E0E0E0;">Dark theme</span>
+      <span style="padding: 8px 16px; border: 1px solid #6B5518; border-radius: 999px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #F0C84A;">Arabic RTL</span>
+      <span style="padding: 8px 16px; border: 1px solid #2A2A2A; border-radius: 999px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #E0E0E0;">UI design</span>
+      <span style="padding: 8px 16px; border: 1px solid #2A2A2A; border-radius: 999px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #E0E0E0;">UX research</span>
+      <span style="padding: 8px 16px; border: 1px solid #2A2A2A; border-radius: 999px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #E0E0E0;">Design system</span>
+    </div>
+    <img src="uploads/COVER%20WAJZ%200-7d69ba4e.png" alt="Wajz case study cover" style="display: block; width: 100%; height: auto; border: 1px solid #1E1E1E;" />
+  </section>
+
+  <section style="max-width: 1160px; margin: 0 auto; padding: 6vh 24px; border-top: 1px solid #1E1E1E;">
+    <p style="margin: 0 0 16px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #D4A935;">The problem · المشكلة</p>
+    <h2 style="margin: 0 0 20px; font-weight: 900; font-size: clamp(28px, 4.2vw, 52px); line-height: 1.06; letter-spacing: -0.015em; max-width: 780px;">Wajz had strong services.<br />But the value wasn't immediately clear.</h2>
+    <p style="margin: 0 0 40px; font-size: 17px; line-height: 1.7; max-width: 640px; color: #B8B8B8;">The previous experience presented services as separate offerings, without a strong narrative explaining how they work together or why that matters to the client.</p>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-bottom: 34px;">
+      <div style="border: 1px solid #6B5518; background: #131108; padding: 24px 22px;">
+        <p style="margin: 0 0 14px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; color: #F0C84A;">01</p>
+        <p style="margin: 0 0 10px; font-weight: 700; font-size: 19px; line-height: 1.3;">The value wasn't immediately clear</p>
+        <p style="margin: 0; font-size: 15px; line-height: 1.65; color: #B8B8B8;">Services were presented as capabilities rather than one clear business outcome.</p>
+      </div>
+      <div style="border: 1px solid #2A2A2A; background: #111111; padding: 24px 22px;">
+        <p style="margin: 0 0 14px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; color: #999999;">02</p>
+        <p style="margin: 0 0 10px; font-weight: 700; font-size: 19px; line-height: 1.3;">Hard to differentiate</p>
+        <p style="margin: 0; font-size: 15px; line-height: 1.65; color: #B8B8B8;">Competitors were using similar technology-led visual patterns.</p>
+      </div>
+      <div style="border: 1px solid #2A2A2A; background: #111111; padding: 24px 22px;">
+        <p style="margin: 0 0 14px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; color: #999999;">03</p>
+        <p style="margin: 0 0 10px; font-weight: 700; font-size: 19px; line-height: 1.3;">The CTA wasn't strong enough</p>
+        <p style="margin: 0; font-size: 15px; line-height: 1.65; color: #B8B8B8;">The next action wasn't always obvious from the experience.</p>
+      </div>
+      <div style="border: 1px solid #2A2A2A; background: #111111; padding: 24px 22px;">
+        <p style="margin: 0 0 14px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; color: #999999;">04</p>
+        <p style="margin: 0 0 10px; font-weight: 700; font-size: 19px; line-height: 1.3;">Mobile experience was weak</p>
+        <p style="margin: 0; font-size: 15px; line-height: 1.65; color: #B8B8B8;">The mobile experience needed to feel intentional rather than simply adapted.</p>
+      </div>
+    </div>
+
+    <img src="uploads/WAJZ%202%20WHAT%20IT%20WAS_.png" alt="Wajz — what it was: the problem slide" style="display: block; width: 100%; height: auto; border: 1px solid #1E1E1E;" />
+  </section>
+
+  <section style="max-width: 1160px; margin: 0 auto; padding: 6vh 24px; border-top: 1px solid #1E1E1E;">
+    <p style="margin: 0 0 16px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #D4A935;">Market research · دراسة السوق</p>
+    <h2 style="margin: 0 0 20px; font-weight: 900; font-size: clamp(28px, 4.2vw, 52px); line-height: 1.06; letter-spacing: -0.015em; max-width: 780px;">Most of the market was speaking the same language.</h2>
+    <p style="margin: 0 0 36px; font-size: 17px; line-height: 1.7; max-width: 660px; color: #B8B8B8;">We analyzed leading Saudi technology companies to understand the visual patterns, messaging, positioning, and communication styles shaping the market.</p>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 30px;">
+      <div style="border: 1px solid #2A2A2A; background: #111111; padding: 22px;">
+        <p style="margin: 0 0 8px; font-weight: 700; font-size: 20px;">7ADAS</p>
+        <p style="margin: 0; font-size: 14px; line-height: 1.6; color: #999999;">AI products · SaaS solutions · Enterprise focus</p>
+      </div>
+      <div style="border: 1px solid #2A2A2A; background: #111111; padding: 22px;">
+        <p style="margin: 0 0 8px; font-weight: 700; font-size: 20px;">WAKEB</p>
+        <p style="margin: 0; font-size: 14px; line-height: 1.6; color: #999999;">AI solutions · Cloud solutions · Government &amp; enterprise</p>
+      </div>
+      <div style="border: 1px solid #2A2A2A; background: #111111; padding: 22px;">
+        <p style="margin: 0 0 8px; font-weight: 700; font-size: 20px; color: #F0C84A;">Other tech companies</p>
+        <p style="margin: 0; font-size: 14px; line-height: 1.6; color: #999999;">Web development · Digital marketing · Branding &amp; design</p>
+      </div>
+    </div>
+
+    <img src="uploads/WAJZ%204%20MARKET.png" alt="Wajz market research: competitors analyzed and key results" style="display: block; width: 100%; height: auto; border: 1px solid #1E1E1E;" />
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; margin-top: 30px;">
+      <div style="border: 1px solid #2A2A2A; background: #111111; padding: 24px 22px;">
+        <p style="margin: 0 0 14px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; color: #D4A935;">01</p>
+        <p style="margin: 0 0 10px; font-weight: 700; font-size: 19px; line-height: 1.3;">Similar visual direction</p>
+        <p style="margin: 0; font-size: 15px; line-height: 1.65; color: #B8B8B8;">Many competitors relied on similar AI visuals, dashboards, and abstract technology imagery.</p>
+      </div>
+      <div style="border: 1px solid #2A2A2A; background: #111111; padding: 24px 22px;">
+        <p style="margin: 0 0 14px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; color: #D4A935;">02</p>
+        <p style="margin: 0 0 10px; font-weight: 700; font-size: 19px; line-height: 1.3;">Strong focus on technology</p>
+        <p style="margin: 0; font-size: 15px; line-height: 1.65; color: #B8B8B8;">Messaging often emphasized tools, products, and technical capabilities rather than customer value.</p>
+      </div>
+      <div style="border: 1px solid #6B5518; background: #131108; padding: 24px 22px;">
+        <p style="margin: 0 0 14px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; color: #F0C84A;">03</p>
+        <p style="margin: 0 0 10px; font-weight: 700; font-size: 19px; line-height: 1.3;">Opportunity to differentiate</p>
+        <p style="margin: 0; font-size: 15px; line-height: 1.65; color: #B8B8B8;">There was an opportunity to connect technology, creativity, and marketing into one stronger business story.</p>
+      </div>
+    </div>
+  </section>
+
+  <section style="border-top: 1px solid #1E1E1E; border-bottom: 1px solid #1E1E1E; background: #0D0C08;">
+    <div style="max-width: 1160px; margin: 0 auto; padding: 9vh 24px;">
+      <p style="margin: 0 0 24px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #D4A935;">The insight</p>
+      <h2 style="margin: 0 0 28px; font-weight: 900; font-size: clamp(28px, 5vw, 62px); line-height: 1.04; letter-spacing: -0.02em; max-width: 900px;">The opportunity wasn't to look more technical.<br /><span style="color: #F0C84A;">It was to become more memorable.</span></h2>
+      <p style="margin: 0 0 46px; font-size: clamp(16px, 1.7vw, 19px); line-height: 1.7; max-width: 620px; color: #B8B8B8;">If everyone is speaking the language of technology, differentiation can come from the experience and the story — not from adding more technology visuals.</p>
+      <img src="uploads/WAJZ%203%20MARKETT.png" alt="Wajz market research and insight composition" style="display: block; width: 100%; height: auto; border: 1px solid #1E1E1E;" />
+    </div>
+  </section>
+
+  <section style="max-width: 1160px; margin: 0 auto; padding: 7vh 24px;">
+    <p style="margin: 0 0 16px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #D4A935;">Design opportunity · فرصة التصميم</p>
+    <h2 style="margin: 0 0 40px; font-weight: 900; font-size: clamp(28px, 4.2vw, 52px); line-height: 1.06; letter-spacing: -0.015em; max-width: 800px;">From a tech-focused presentation<br />to a connected growth experience.</h2>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; margin-bottom: 34px;">
+      <div style="border: 1px solid #2A2A2A; background: #111111; padding: 26px 24px;">
+        <p style="margin: 0 0 6px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: #999999;">From</p>
+        <p style="margin: 0 0 20px; font-weight: 700; font-size: 21px;">Tech-focused presentation</p>
+        <div style="display: flex; flex-direction: column; gap: 10px; font-size: 15px; line-height: 1.5; color: #B8B8B8;">
+          <span>AI visuals &amp; dashboards</span>
+          <span>Feature-centered messaging</span>
+          <span>Complex information</span>
+          <span>Hard to differentiate</span>
+        </div>
+      </div>
+      <div style="border: 1px solid #6B5518; background: #131108; padding: 26px 24px;">
+        <p style="margin: 0 0 6px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: #F0C84A;">To</p>
+        <p style="margin: 0 0 20px; font-weight: 700; font-size: 21px;">Connected growth experience</p>
+        <div style="display: flex; flex-direction: column; gap: 10px; font-size: 15px; line-height: 1.5; color: #EDEDED;">
+          <span>Human-centered design</span>
+          <span>Value &amp; results driven</span>
+          <span>Clear &amp; simple communication</span>
+          <span>Memorable brand experience</span>
+        </div>
+      </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 16px; margin-bottom: 34px;">
+      <div style="border: 1px solid #2A2A2A; padding: 22px;">
+        <p style="margin: 0 0 12px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; color: #D4A935;">01</p>
+        <p style="margin: 0 0 8px; font-weight: 700; font-size: 18px;">One connected ecosystem</p>
+        <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #B8B8B8;">Connect all services around one clear story.</p>
+      </div>
+      <div style="border: 1px solid #2A2A2A; padding: 22px;">
+        <p style="margin: 0 0 12px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; color: #D4A935;">02</p>
+        <p style="margin: 0 0 8px; font-weight: 700; font-size: 18px;">Focus on business value</p>
+        <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #B8B8B8;">Show outcomes and impact, not only capabilities.</p>
+      </div>
+      <div style="border: 1px solid #2A2A2A; padding: 22px;">
+        <p style="margin: 0 0 12px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; color: #D4A935;">03</p>
+        <p style="margin: 0 0 8px; font-weight: 700; font-size: 18px;">Emotional connection &amp; trust</p>
+        <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #B8B8B8;">Create an experience that feels credible and human.</p>
+      </div>
+      <div style="border: 1px solid #2A2A2A; padding: 22px;">
+        <p style="margin: 0 0 12px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; color: #D4A935;">04</p>
+        <p style="margin: 0 0 8px; font-weight: 700; font-size: 18px;">Memorable brand association</p>
+        <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #B8B8B8;">Build a visual identity people can remember.</p>
+      </div>
+    </div>
+
+    <img src="uploads/WAJZ%205%20MARKET.png" alt="Wajz design opportunity: from / to comparison and opportunity pillars" style="display: block; width: 100%; height: auto; border: 1px solid #1E1E1E;" />
+  </section>
+
+  <section style="max-width: 1160px; margin: 0 auto; padding: 6vh 24px; border-top: 1px solid #1E1E1E;">
+    <p style="margin: 0 0 16px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #D4A935;">Design direction · التوجه</p>
+    <h2 style="margin: 0 0 20px; font-weight: 900; font-size: clamp(28px, 4.2vw, 52px); line-height: 1.06; letter-spacing: -0.015em; max-width: 700px;">Wajz isn't just a website.<br /><span style="color: #F0C84A;">It's one story.</span></h2>
+    <p style="margin: 0 0 36px; font-size: 17px; line-height: 1.7; max-width: 640px; color: #B8B8B8;">Instead of presenting technology, marketing, and creative services as separate products, the redesign connects them through one clear narrative.</p>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; margin-bottom: 30px;">
+      <div style="border: 1px solid #2A2A2A; background: #111111; padding: 24px;">
+        <p style="margin: 0 0 18px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: #999999;">From</p>
+        <div style="display: flex; flex-direction: column; gap: 12px; font-size: 16px; color: #B8B8B8;">
+          <span>AI visuals</span>
+          <span>Feature messaging</span>
+          <span>Separate services</span>
+          <span>Hard to remember</span>
+        </div>
+      </div>
+      <div style="border: 1px solid #6B5518; background: #131108; padding: 24px;">
+        <p style="margin: 0 0 18px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: #F0C84A;">To</p>
+        <div style="display: flex; flex-direction: column; gap: 12px; font-size: 16px; color: #EDEDED;">
+          <span>Human-centered design</span>
+          <span>Value-driven messaging</span>
+          <span>One connected system</span>
+          <span>Memorable brand</span>
+        </div>
+      </div>
+    </div>
+
+    <img src="uploads/WAJZ%206.png" alt="Wajz design direction slide" style="display: block; width: 100%; height: auto; border: 1px solid #1E1E1E;" />
+  </section>
+
+  <section style="max-width: 1160px; margin: 0 auto; padding: 6vh 24px; border-top: 1px solid #1E1E1E;">
+    <p style="margin: 0 0 16px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #D4A935;">Hero experience</p>
+    <h2 style="margin: 0 0 36px; font-weight: 900; font-size: clamp(28px, 4.6vw, 56px); line-height: 1.04; letter-spacing: -0.02em;">One clear message.<br />One clear next step.</h2>
+
+    <img src="uploads/WAJZ%20PROFILE%209.png" alt="Redesigned Wajz homepage" style="display: block; width: 100%; height: auto; border: 1px solid #1E1E1E;" />
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 16px; margin-top: 30px;">
+      <div style="border-top: 1px solid #2A2A2A; padding-top: 18px;">
+        <p style="margin: 0 0 8px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; color: #D4A935;">01 — One clear message</p>
+        <p style="margin: 0; font-size: 16px; line-height: 1.6; color: #EDEDED;">Move from scattered services to one growth-focused story.</p>
+      </div>
+      <div style="border-top: 1px solid #2A2A2A; padding-top: 18px;">
+        <p style="margin: 0 0 8px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; color: #D4A935;">02 — Clear CTA</p>
+        <p style="margin: 0; font-size: 16px; line-height: 1.6; color: #EDEDED;">Give visitors one obvious next action.</p>
+      </div>
+      <div style="border-top: 1px solid #2A2A2A; padding-top: 18px;">
+        <p style="margin: 0 0 8px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; color: #D4A935;">03 — Memorable brand association</p>
+        <p style="margin: 0; font-size: 16px; line-height: 1.6; color: #EDEDED;">Make the Wajz visual language recognizable.</p>
+      </div>
+      <div style="border-top: 1px solid #2A2A2A; padding-top: 18px;">
+        <p style="margin: 0 0 8px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; color: #D4A935;">04 — Service-led storytelling</p>
+        <p style="margin: 0; font-size: 16px; line-height: 1.6; color: #EDEDED;">Let each service support the larger business narrative.</p>
+      </div>
+    </div>
+  </section>
+
+  <section style="max-width: 1160px; margin: 0 auto; padding: 6vh 24px; border-top: 1px solid #1E1E1E;">
+    <p style="margin: 0 0 16px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #D4A935;">Services</p>
+    <h2 style="margin: 0 0 20px; font-weight: 900; font-size: clamp(28px, 4.2vw, 52px); line-height: 1.06; letter-spacing: -0.015em;">Services became connected — not isolated.</h2>
+    <p style="margin: 0 0 34px; font-size: 17px; line-height: 1.7; max-width: 660px; color: #B8B8B8;">Instead of presenting services as unrelated capabilities, the experience positions them as connected parts of one growth ecosystem.</p>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 34px;">
+      <span style="padding: 10px 18px; border: 1px solid #2A2A2A; font-size: 15px; color: #EDEDED;">Video &amp; creative content</span>
+      <span style="padding: 10px 18px; border: 1px solid #2A2A2A; font-size: 15px; color: #EDEDED;">Digital marketing &amp; advertising</span>
+      <span style="padding: 10px 18px; border: 1px solid #2A2A2A; font-size: 15px; color: #EDEDED;">Visual identity &amp; design</span>
+      <span style="padding: 10px 18px; border: 1px solid #2A2A2A; font-size: 15px; color: #EDEDED;">Data &amp; analytics</span>
+      <span style="padding: 10px 18px; border: 1px solid #2A2A2A; font-size: 15px; color: #EDEDED;">Application &amp; website development</span>
+    </div>
+
+    <img src="uploads/WAJZ%208%20WHY_CAIRO.png" alt="Wajz hero and services sections with design annotations" style="display: block; width: 100%; height: auto; border: 1px solid #1E1E1E;" />
+
+    <p style="margin: 36px 0 0; font-weight: 900; font-size: clamp(24px, 3.4vw, 40px); line-height: 1.1;">Different capabilities.<br /><span style="color: #F0C84A;">One direction.</span></p>
+  </section>
+
+  <section style="max-width: 1160px; margin: 0 auto; padding: 6vh 24px; border-top: 1px solid #1E1E1E;">
+    <p style="margin: 0 0 16px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #D4A935;">Mobile experience</p>
+    <h2 style="margin: 0 0 18px; font-weight: 900; font-size: clamp(28px, 4.2vw, 52px); line-height: 1.06; letter-spacing: -0.015em;">Mobile wasn't an afterthought.</h2>
+    <p style="margin: 0 0 30px; font-size: 17px; line-height: 1.7; max-width: 620px; color: #B8B8B8;">The same brand story and hierarchy needed to work naturally on smaller screens.</p>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 30px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase;">
+      <span style="padding: 9px 14px; border: 1px solid #2A2A2A; color: #EDEDED;">Sticky nav + blur</span>
+      <span style="padding: 9px 14px; border: 1px solid #2A2A2A; color: #EDEDED;">Touch-friendly targets</span>
+      <span style="padding: 9px 14px; border: 1px solid #6B5518; color: #F0C84A;">Arabic RTL</span>
+      <span style="padding: 9px 14px; border: 1px solid #2A2A2A; color: #EDEDED;">Featured card hierarchy</span>
+      <span style="padding: 9px 14px; border: 1px solid #2A2A2A; color: #EDEDED;">2-column grid where appropriate</span>
+      <span style="padding: 9px 14px; border: 1px solid #2A2A2A; color: #EDEDED;">One clear CTA</span>
+    </div>
+
+    <img src="uploads/WAJZ%2010%20MOBILE.png" alt="Wajz mobile experience screens and decisions" style="display: block; width: 100%; height: auto; border: 1px solid #1E1E1E;" />
+  </section>
+
+  <section style="max-width: 1160px; margin: 0 auto; padding: 6vh 24px; border-top: 1px solid #1E1E1E;">
+    <p style="margin: 0 0 16px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #D4A935;">Design system · نظام التصميم</p>
+    <h2 style="margin: 0 0 18px; font-weight: 900; font-size: clamp(28px, 4.2vw, 52px); line-height: 1.06; letter-spacing: -0.015em;">Rules that keep the experience consistent.</h2>
+    <p style="margin: 0 0 32px; font-size: 17px; line-height: 1.7; max-width: 660px; color: #B8B8B8;">The visual system translates the new direction into reusable rules for typography, color, components, and motion.</p>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 16px; margin-bottom: 30px;">
+      <div style="border: 1px solid #2A2A2A; padding: 22px;">
+        <p style="margin: 0 0 12px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; color: #D4A935;">Typography</p>
+        <p style="margin: 0; font-size: 16px; line-height: 1.6; color: #EDEDED;">Cairo · Arabic-first hierarchy</p>
+      </div>
+      <div style="border: 1px solid #2A2A2A; padding: 22px;">
+        <p style="margin: 0 0 12px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; color: #D4A935;">Color</p>
+        <div style="display: flex; gap: 8px; margin-bottom: 10px;">
+          <span style="width: 26px; height: 26px; background: #F0C84A; border: 1px solid #2A2A2A;"></span>
+          <span style="width: 26px; height: 26px; background: #9A7520; border: 1px solid #2A2A2A;"></span>
+          <span style="width: 26px; height: 26px; background: #0A0A0A; border: 1px solid #2A2A2A;"></span>
+        </div>
+        <p style="margin: 0; font-size: 16px; line-height: 1.6; color: #EDEDED;">Light · Dark · Gold</p>
+      </div>
+      <div style="border: 1px solid #2A2A2A; padding: 22px;">
+        <p style="margin: 0 0 12px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; color: #D4A935;">Components</p>
+        <p style="margin: 0; font-size: 16px; line-height: 1.6; color: #EDEDED;">Buttons · Variants · States</p>
+      </div>
+      <div style="border: 1px solid #2A2A2A; padding: 22px;">
+        <p style="margin: 0 0 12px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; color: #D4A935;">Motion</p>
+        <p style="margin: 0; font-size: 16px; line-height: 1.6; color: #EDEDED;">Glow pulse · Hover transitions · Scroll reveal · Marquee</p>
+      </div>
+    </div>
+
+    <img src="uploads/WAJZ%2011%20DESIGN%20SYSTEM.png" alt="Wajz design system: typography, color, components, motion" style="display: block; width: 100%; height: auto; border: 1px solid #1E1E1E;" />
+  </section>
+
+  <section style="border-top: 1px solid #1E1E1E; background: #0D0C08;">
+    <div style="max-width: 1160px; margin: 0 auto; padding: 7vh 24px;">
+      <p style="margin: 0 0 16px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #D4A935;">Design decisions · قرارات التصميم</p>
+      <h2 style="margin: 0 0 40px; font-weight: 900; font-size: clamp(28px, 4.2vw, 52px); line-height: 1.06; letter-spacing: -0.015em;">Every decision had a reason.</h2>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 18px; margin-bottom: 34px;">
+        <div style="border: 1px solid #2A2A2A; background: #111111; padding: 26px 24px;">
+          <p style="margin: 0 0 14px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; color: #D4A935;">01</p>
+          <p style="margin: 0 0 14px; font-weight: 700; font-size: 20px;">Dark theme first</p>
+          <p style="margin: 0 0 6px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: #999999;">Why?</p>
+          <p style="margin: 0; font-size: 15px; line-height: 1.65; color: #B8B8B8;">Reflects the brand's premium digital character and creates stronger contrast for the Wajz visual language.</p>
+        </div>
+        <div style="border: 1px solid #2A2A2A; background: #111111; padding: 26px 24px;">
+          <p style="margin: 0 0 14px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; color: #D4A935;">02</p>
+          <p style="margin: 0 0 14px; font-weight: 700; font-size: 20px;">Gold for CTAs</p>
+          <p style="margin: 0 0 6px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: #999999;">Why?</p>
+          <p style="margin: 0; font-size: 15px; line-height: 1.65; color: #B8B8B8;">Use the strongest accent where attention and action matter most.</p>
+        </div>
+        <div style="border: 1px solid #2A2A2A; background: #111111; padding: 26px 24px;">
+          <p style="margin: 0 0 14px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; color: #D4A935;">03</p>
+          <p style="margin: 0 0 14px; font-weight: 700; font-size: 20px;">Services as a system</p>
+          <p style="margin: 0 0 6px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: #999999;">Why?</p>
+          <p style="margin: 0; font-size: 15px; line-height: 1.65; color: #B8B8B8;">Position services as connected parts of one ecosystem rather than isolated offerings.</p>
+        </div>
+        <div style="border: 1px solid #2A2A2A; background: #111111; padding: 26px 24px;">
+          <p style="margin: 0 0 14px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; color: #D4A935;">04</p>
+          <p style="margin: 0 0 14px; font-weight: 700; font-size: 20px;">Mobile-first thinking</p>
+          <p style="margin: 0 0 6px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: #999999;">Why?</p>
+          <p style="margin: 0; font-size: 15px; line-height: 1.65; color: #B8B8B8;">The mobile experience should feel designed for the context, not simply reduced from desktop.</p>
+        </div>
+      </div>
+
+      <img src="uploads/WAJZ%207.png" alt="Wajz design decisions slide" style="display: block; width: 100%; height: auto; border: 1px solid #1E1E1E;" />
+    </div>
+  </section>
+
+  <section style="max-width: 1160px; margin: 0 auto; padding: 7vh 24px;">
+    <p style="margin: 0 0 16px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #D4A935;">The result</p>
+    <h2 style="margin: 0 0 40px; font-weight: 900; font-size: clamp(28px, 4.6vw, 56px); line-height: 1.04; letter-spacing: -0.02em; max-width: 860px;">Technology became the medium.<br /><span style="color: #F0C84A;">The experience became the differentiator.</span></h2>
+
+    <img src="uploads/WAJZ%20PROFILE%209.png" alt="Final Wajz homepage" style="display: block; width: 100%; height: auto; border: 1px solid #1E1E1E;" />
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 18px; margin-top: 34px;">
+      <div style="border: 1px solid #2A2A2A; padding: 24px;">
+        <p style="margin: 0 0 18px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: #999999;">Before</p>
+        <div style="display: flex; flex-direction: column; gap: 10px; font-size: 16px; color: #B8B8B8;">
+          <span>Technical</span>
+          <span>Feature-focused</span>
+          <span>Fragmented</span>
+          <span>Harder to differentiate</span>
+        </div>
+      </div>
+      <div style="border: 1px solid #6B5518; background: #131108; padding: 24px;">
+        <p style="margin: 0 0 18px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: #F0C84A;">After</p>
+        <div style="display: flex; flex-direction: column; gap: 10px; font-size: 16px; color: #EDEDED;">
+          <span>Connected</span>
+          <span>Value-focused</span>
+          <span>Memorable</span>
+          <span>Clearer brand story</span>
+        </div>
+      </div>
+    </div>
+
+    <p style="margin: 56px 0 0; font-weight: 900; font-size: clamp(24px, 3.6vw, 44px); line-height: 1.12; max-width: 900px;">The redesign wasn't about making Wajz look more technical. It was about making the value easier to understand — and <span style="color: #F0C84A;">harder to forget.</span></p>
+  </section>
+
+  <section style="border-top: 1px solid #1E1E1E;">
+    <div style="max-width: 1160px; margin: 0 auto; padding: 5vh 24px 9vh; display: flex; flex-wrap: wrap; gap: 16px; align-items: center;">
+      <a href="Heba%20Elgendy%20-%2090%20Seconds.dc.html" style="padding: 14px 24px; background: #D4A935; color: #0A0A0A; border: none; font-weight: 700; font-size: 15px;">← Back to the 90 seconds</a>
+      <a href="Hawlak%20-%20Case%20Study.dc.html" style="padding: 14px 24px; border: 1px solid #2A2A2A; color: #EDEDED; font-size: 15px;">Next: Hawlak / حولك →</a>
+    </div>
+  </section>
+</div>
+</x-dc>
+</body>
+</html>
